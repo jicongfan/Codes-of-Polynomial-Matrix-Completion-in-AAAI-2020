@@ -1,0 +1,13 @@
+This repo contains the main codes in the following paper:
+Jicong Fan, Yuqian Zhang, and Madeleine Udell. Polynomial Matrix Completion for Missing Data Imputation and Transductive Learning. AAAI2020.
+
+Two algorithms proposed in the paper:
+PMC-S and PMC-W
+
+test_PMC_synthetic: matrix completion on synthetic data generated from multiple manifolds (defined by polynomials)
+
+test_PMC_mocapdata: matrix completion for recovering the CMU motion capture data
+
+test_PMC_classification: transductive learning on incomplete data
+
+Questions and comments can be sent to my email: jf577@cornell.edu
